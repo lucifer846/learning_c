@@ -117,8 +117,8 @@ int main(){
 
 #include<stdio.h>
 int main(){
-    for(int i=1;i<12;i++){ // i is iterator or also called counter variable; i+=1 = i++
-        printf("%d \n", i-1);
-    }
+    int i=1;
+    printf("%d \n", ++i); // increase value first than use i(value also increased in var)
+    printf("%d", i++);
     return 0;
 }
